@@ -6,6 +6,8 @@ module System.TimeitHs (
     timeitPrint
 ) where
 
+-- used https://hackage.haskell.org/package/timeit as a template.
+
 import Criterion.Measurement
 import System.IO.Unsafe
 import Data.UnixTime
